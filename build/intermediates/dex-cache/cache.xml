@@ -3,156 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/670043281952a928fc1bebe41548ba252a1bab5d/output/jars/classes.jar"
+        jar="/Users/peterhu/Desktop/123/RajawaliLib/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7c062cf76415c2b2df9fe9b1e26e07b0e40cc8f4/classes.dex" />
+        sha1="55da7aac489a704651c4eb9e110541642d75fbda">
+        <dex dex="/Users/peterhu/Desktop/123/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b00ec0945db9ed6487acac915a2d30ba365a8303/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/bc8de2729296af1c72bd14949da8cd4c19555dcf/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_b89f3b07f37250043dc0a70efffacd443baa17ad/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/401e4cdd7bdf927a52e19f766735919f1dce2c9f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8a1e9680aeb01422ef0e4a69b07bd2738070d74b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/6b60b861ec990abfffd1f3e84ccc6020157cdfa2/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2d2312f6b3bec769315c58984ab48b8848545fea/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/d45fe2d594a9b91d1483f153ff0e6722f73b1e53/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_edb1e789331962d4d6fe6f77c764862d13120dfb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/82c6f5b99dbfeceaf05916558859af9bef899e8b/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_9f55445d40cf8ba0a609eb367964b66cad81ce08/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_b14cfc6d1f14f9a10f84084bf8c7378f692c4fcb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/87c26a5eb5cabe042416ddc98d9bf6d1dcd1212a/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_639b2946bb9e51f5988de283dabc95b2925fd9eb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/e08411f588410f3d476566f30eff9832da672e9d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_460ecf32d71cb23342a736d656029a239bc3206f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/173fa463c97f94f4c7e7b7a3bdc90023bec93b25/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a34a7e1ba2f8eb85af41a2a120cdb9c734173e46/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/e08411f588410f3d476566f30eff9832da672e9d/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_416c578a1b02ee8ad855a413d0410f58ae088bd7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="2a276247c2165bf890064e343a98719d69371af7">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fa1bfd8ccc77617b8f1bc659aba3594822905686/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/peterhu/Desktop/123/RajawaliLib/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e8384cd353eac58ace82b23aed3163fad7108451/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/bc8de2729296af1c72bd14949da8cd4c19555dcf/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_13a9faea64132a519bddc68a5a907906ef4152bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/173fa463c97f94f4c7e7b7a3bdc90023bec93b25/output/jars/libs/internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_fc28732b02a6da06b140563a180c035019ee3c8a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/82c6f5b99dbfeceaf05916558859af9bef899e8b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5dc14282b882ee6d6003c96e45dd3a7cd9caaaa7/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/peterhu/.android/build-cache/d45fe2d594a9b91d1483f153ff0e6722f73b1e53/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="/Users/peterhu/Desktop/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d35cb713b50b0dc7266d96097dad829cb78a80c4/classes.dex" />
+        <dex dex="/Users/peterhu/Desktop/123/RajawaliLib/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_e3529574354c4d77365d1a358941af2643a22818/classes.dex" />
     </item>
 
 </items>
