@@ -103,8 +103,8 @@ public class ArcballCamera extends Camera {
 
     private void mapToScreen(final float x, final float y, Vector2 out)
     {
-        out.setX(x / mLastWidth);
-        out.setY(y / mLastHeight);
+        out.setX(mScreenMapping * (2 * x - mLastWidth) / mLastWidth);
+        out.setY(-mScreenMapping  * (2 * y - mLastHeight) / mLastHeight);
     }
 
     private void startRotation(final float x, final float y)

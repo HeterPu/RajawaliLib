@@ -97,6 +97,5 @@
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-fragment:25.0.0@aar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.android.support:support-vector-drawable:25.0.0@aar" level="project" />
     <orderEntry type="module" module-name="rajawali" exported="" />
-    <orderEntry type="module" module-name="rajawali" exported="" />
   </component>
 </module>
