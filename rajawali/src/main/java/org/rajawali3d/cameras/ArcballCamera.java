@@ -41,6 +41,7 @@ public class ArcballCamera extends Camera {
     private Vector3 mScratchVector;
     private double mStartFOV;
     @FloatRange(from = -1, to = 1) private float mScreenMapping = 1;
+    @FloatRange(from = 0, to = 5) private float rotationSensitive = 1.0f;
 
     public ArcballCamera(Context context, View view) {
         this(context, view, null);
@@ -80,6 +81,15 @@ public class ArcballCamera extends Camera {
         if(ratio > 1) ratio = 1;
         if(ratio < -1) ratio = -1;
         mScreenMapping = ratio;
+    }
+
+
+    public float getRotationSensitive() {
+        return rotationSensitive;
+    }
+
+    public void setRotationSensitive(@FloatRange(from = 0, to = 5) float rotationSensitive) {
+        this.rotationSensitive = rotationSensitive;
     }
 
     @FloatRange(from=-1,to=1)
@@ -140,7 +150,7 @@ public class ArcballCamera extends Camera {
             rotationAxis.normalize();
 
             double rotationAngle = Math.acos(Math.min(1, mPrevSphereCoord.dot(mCurrSphereCoord)));
-            mCurrentOrientation.fromAngleAxis(rotationAxis, MathUtil.radiansToDegrees(rotationAngle));
+            mCurrentOrientation.fromAngleAxis(rotationAxis, MathUtil.radiansToDegrees(rotationAngle * rotationSensitive));
             mCurrentOrientation.normalize();
 
             Quaternion q = new Quaternion(mStartOrientation);
