@@ -658,6 +658,23 @@ public class Object3D extends ATransformable3D implements Comparable<Object3D>, 
         }
     }
 
+
+    // phadd
+    public void addChild(Object3D child,int index) {
+        if (child.getParent() != null) {
+            child.getParent().removeChild(child);
+        }
+        mChildren.add(index, child);
+        child.setParent(this);
+        child.mParentMatrix = new Matrix4();
+        child.ensureModelMatrix();
+        if (mRenderChildrenAsBatch) {
+            child.setPartOfBatch(true);
+        }
+    }
+
+
+
     private void ensureModelMatrix() {
         if (mParent != null) {
             //mParent.ensureModelMatrix();

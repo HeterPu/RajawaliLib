@@ -370,7 +370,7 @@ public class LoaderOBJ extends AMeshLoader {
 			mRootObject = mRootObject.getChildAt(0);
 
 		for(int i=0; i<mRootObject.getNumChildren(); i++)
-			mergeGroupsAsObjects(mRootObject.getChildAt(i));
+			mergeGroupsAsObjects(mRootObject.getChildAt(i),i);
 
 		return this;
 	}
@@ -380,18 +380,18 @@ public class LoaderOBJ extends AMeshLoader {
 	 * Collapse single-object groups. (Some obj exporters use g token for objects)
 	 * @param object
 	 */
-	private void mergeGroupsAsObjects(Object3D object) {
+	private void mergeGroupsAsObjects(Object3D object,int index) {
 		if(object.isContainer() && object.getNumChildren()==1 && object.getChildAt(0).getName().startsWith("Object")) {
 			Object3D child = object.getChildAt(0);
 			object.removeChild(child);
 			child.setName(object.getName());
-			addChildSetParent(object.getParent(), child);
+			addChildSetParent(object.getParent(), child,index);
 			object.getParent().removeChild(object);
 			object = child;
 		}
 
 		for(int i=0; i<object.getNumChildren(); i++) {
-			mergeGroupsAsObjects(object.getChildAt(i));
+			mergeGroupsAsObjects(object.getChildAt(i),i);
 		}
 	}
 
@@ -436,6 +436,19 @@ public class LoaderOBJ extends AMeshLoader {
 			RajLog.e("Reflection error Object3D.mParent");
 		}
 	}
+
+
+    // phadd
+	private static void addChildSetParent(Object3D parent, Object3D object,int index) {
+		try {
+			parent.addChild(object,index);
+			mParent.set(object, parent);
+		} catch(Exception e) {
+			RajLog.e("Reflection error Object3D.mParent");
+		}
+	}
+
+
 
 	public String toString() {
 		if(mRootObject==null) {
