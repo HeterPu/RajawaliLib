@@ -76,13 +76,13 @@ public class ArcballCamera extends Camera {
         super.setProjectionMatrix(width, height);
     }
 
-    public void setScreenMappingRatio(@FloatRange(from = -1, to = 1) float ratio) {
-        if(ratio > 1) ratio = 1;
-        if(ratio < -1) ratio = -1;
+    public void setScreenMappingRatio(@FloatRange(from = -5, to = 5) float ratio) {
+        if(ratio > 5) ratio = 5;
+        if(ratio < -5) ratio = -5;
         mScreenMapping = ratio;
     }
 
-    @FloatRange(from=-1,to=1)
+    @FloatRange(from=-5,to=5)
     public float getScreenMappingRatio() {
 	return mScreenMapping;
     }
