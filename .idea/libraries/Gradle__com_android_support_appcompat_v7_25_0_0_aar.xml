@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:appcompat-v7:25.0.0@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/670043281952a928fc1bebe41548ba252a1bab5d/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/670043281952a928fc1bebe41548ba252a1bab5d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/79dda490506e21af1d779aafb4d92c5fee152557/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/79dda490506e21af1d779aafb4d92c5fee152557/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/25.0.0/appcompat-v7-25.0.0-javadoc.jar!/" />
+      <root url="jar://G:/ANDROIDSDK/SDK/extras/android/m2repository/com/android/support/appcompat-v7/25.0.0/appcompat-v7-25.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/25.0.0/appcompat-v7-25.0.0-sources.jar!/" />
+      <root url="jar://G:/ANDROIDSDK/SDK/extras/android/m2repository/com/android/support/appcompat-v7/25.0.0/appcompat-v7-25.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

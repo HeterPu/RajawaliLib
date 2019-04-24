@@ -369,6 +369,7 @@ public class LoaderOBJ extends AMeshLoader {
 		if(mRootObject.getNumChildren() == 1 && !mRootObject.getChildAt(0).isContainer())
 			mRootObject = mRootObject.getChildAt(0);
 
+		// PHADD: Fixed Bugs: Can not load materials right. Before: mergeGroupsAsObjects(mRootObject.getChildAt(i)
 		for(int i=0; i<mRootObject.getNumChildren(); i++)
 			mergeGroupsAsObjects(mRootObject.getChildAt(i),i);
 
@@ -438,7 +439,7 @@ public class LoaderOBJ extends AMeshLoader {
 	}
 
 
-    // phadd
+    // PHADD:
 	private static void addChildSetParent(Object3D parent, Object3D object,int index) {
 		try {
 			parent.addChild(object,index);
@@ -606,7 +607,9 @@ public class LoaderOBJ extends AMeshLoader {
 				int alpha = (int)(matDef.alpha*255f);
 				mat.setColor(((alpha<<24)&0xFF000000)|(matDef.diffuseColor&0x00FFFFFF));
 			} else {
-				mat.setColor((int)(Math.random() * 0xffffff));
+				// PHADD: Fix random color to grey white.
+//				mat.setColor((int)(Math.random() * 0xffffff));
+				mat.setColor(0xeeeeee);
 			}
 
 			if(hasSpecular || hasSpecularTexture) {

@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="Gradle: com.android.support:support-fragment:25.0.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/d45fe2d594a9b91d1483f153ff0e6722f73b1e53/output/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.android/build-cache/d45fe2d594a9b91d1483f153ff0e6722f73b1e53/output/jars/libs/internal_impl-25.0.0.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/d45fe2d594a9b91d1483f153ff0e6722f73b1e53/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/67fe3e7f93bbfaaf2112fb363fbd3dc862080048/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/67fe3e7f93bbfaaf2112fb363fbd3dc862080048/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/67fe3e7f93bbfaaf2112fb363fbd3dc862080048/output/jars/libs/internal_impl-25.0.0.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.0.0/support-fragment-25.0.0-javadoc.jar!/" />
+      <root url="jar://G:/ANDROIDSDK/SDK/extras/android/m2repository/com/android/support/support-fragment/25.0.0/support-fragment-25.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.0.0/support-fragment-25.0.0-sources.jar!/" />
+      <root url="jar://G:/ANDROIDSDK/SDK/extras/android/m2repository/com/android/support/support-fragment/25.0.0/support-fragment-25.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
